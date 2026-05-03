@@ -9,11 +9,11 @@ Our ecosystem is comprised of three core pillars that work in harmony to provide
 ## 🏗️ Core Pillars
 
 ### 👁️ [OpenHydra](https://github.com/Neutron-Binary-LLC/OpenHydra)
-**The Sensory & Multimodal Backbone**
-Inspired by the biological hydra's decentralized neural network, OpenHydra is a multimodal intelligence framework designed for high-bandwidth sensory integration.
-- **Dynamic Context Refresh**: Rapidly updates situational awareness from video and audio streams.
-- **Multimodal Reasoning**: Correlates visual cues with auditory context to understand environment nuances.
-- **Sensor Fusion**: Aggregates data from diverse inputs (cameras, microphones, IoT sensors) into a unified perceptual state.
+**The Self-Evolving AI Backbone**
+Inspired by the biological hydra's regenerative capabilities, OpenHydra is a modular AI framework designed for recursive self-improvement and dynamic skill acquisition.
+- **Dynamic Model Hopping**: Rapidly updates core intelligence by evaluating and merging specialized Semi-Core experts.
+- **Semi-Core Specialization**: Captures task-specific nuances through parameter-efficient adapters (LoRA) tailored to interaction data.
+- **Recursive Evolution**: Consolidates reasoning traces and memory from MemPalace into a unified, ever-improving perceptual state.
 
 ### 🧠 [OpenCoeus](https://github.com/Neutron-Binary-LLC/OpenCoeus)
 **The Cognitive & Reasoning Engine**
