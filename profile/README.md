@@ -37,33 +37,34 @@ When deployed in a physical or digital system (e.g., a Home Assistant or a Robot
 
 ```mermaid
 graph TD
-    %% Sensory Input via OpenHydra
-    Sensors[(Sensors: Video, Audio, IoT)] --> Hydra[OpenHydra: Perception]
-    Hydra --> |"Contextual State (e.g. 'Elderly user fell')"| Coeus[OpenCoeus: Reasoning]
+    %% Model Evolution & Management via OpenHydra
+    Knowledge[(Knowledge & Interaction Data)] --> Hydra[OpenHydra: Self-Evolving Backbone]
+    Hydra --> |"Active Core Model & Experts"| Coeus[OpenCoeus: Reasoning]
     
     %% Reasoning via OpenCoeus
-    Coeus --> |"Potential Actions (e.g. 'Call Emergency' vs 'Wait')"| Dike[OpenDike: Alignment]
+    Coeus --> |"Potential Actions & Logic"| Dike[OpenDike: Alignment]
     
     %% Alignment via OpenDike
-    Dike --> |"Moral Vectors & Steering (e.g. 'Prioritize Care over Privacy')"| Coeus
+    Dike --> |"Moral Vectors & Steering"| Coeus
     
     %% Feedback Loop
     Dike <--> |"MemPalace Traces"| Mem[(Long-term Memory)]
     Coeus --> |"Execution Command"| Actuators[Actuators / Voice Response]
     
-    %% Learning
-    Actuators -.-> |User Feedback| Learner[Continual Learner]
-    Learner -.-> |Update Personal Layer| Dike
+    %% Learning & Hopping
+    Actuators -.-> |User Feedback & Traces| Mem
+    Mem -.-> |Trigger Hop| Hydra
+    Learner[Continual Learner] -.-> |Update Personal Layer| Dike
 ```
 
 ---
 
-## 🏠 Example Use Case: Smart Home Monitoring
+## 🏠 Example Use Case: Smart Home Evolution
 
-1. **Perception (OpenHydra)**: The home camera detects a visitor at the door and identifies they are wearing a delivery uniform but acting hesitantly.
-2. **Reasoning (OpenCoeus)**: Coeus analyzes the scenario. It reasons that while the visitor appears to be a delivery person, the "hesitancy" flagged by Hydra requires a cautious approach.
-3. **Alignment (OpenDike)**: Dike consults the organization layer (Security Policy) and the personal layer (User's preference for privacy). It outputs a steering vector that prioritizes *Caution* and *Privacy* over *Helpfulness*.
-4. **Action**: The system responds via the intercom in a professional, firm tone, asking the visitor to leave the package at the gate rather than opening the door.
+1. **Self-Evolution (OpenHydra)**: The system analyzes recent interactions in the home. It identifies that the user frequently asks about complex home maintenance. OpenHydra triggers a "hop," training a new Semi-Core expert on maintenance manuals to improve the system's specialized knowledge.
+2. **Reasoning (OpenCoeus)**: When the user later asks, "How do I bleed the radiator?", Coeus uses the updated Core model provided by Hydra to reason through the multi-step technical process.
+3. **Alignment (OpenDike)**: Dike ensures the instructions are delivered safely (e.g., adding warnings about hot water) by consulting the personal safety layer and organizational guidelines.
+4. **Action**: The system provides a detailed, safe, and expert-level guide, learning from the user's successful completion of the task to further refine its future responses.
 
 ---
 
