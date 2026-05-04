@@ -29,7 +29,7 @@ Representing the goddess of justice, OpenDike ensures every action and response 
 - **MemPalace Memory**: Stores morally salient traces in a spatial, hierarchical structure for long-term consistency.
 - **Continual Alignment**: Learns from user feedback to refine the personal layer while respecting global safety floors.
 
-### 🧠 [OpenNous](https://github.com/Neutron-Binary-LLC/OpenNous) 
+### 🧠 [OpenNous](https://github.com/Neutron-Binary-LLC/OpenNous) (In Progress)
 **The Cognitive Orchestrator** 
 Acting as the "executive brain" of the Neutron Binary ecosystem, OpenNous is the conductor that harmonizes perception, reasoning, and alignment into a unified cognitive flow.
 - **Full Cognitive Loop Orchestration**: Seamlessly coordinates information flow between OpenHydra (perception), OpenCoeus (reasoning), and OpenDike (alignment).
