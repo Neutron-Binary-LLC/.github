@@ -32,7 +32,7 @@ Representing the goddess of justice, OpenDike ensures every action and response 
 ### 🧠 [OpenNous](https://github.com/Neutron-Binary-LLC/OpenNous) (In Progress)
 **The Cognitive Orchestrator** 
 Acting as the "executive brain" of the Neutron Binary ecosystem, OpenNous is the conductor that harmonizes perception, reasoning, and alignment into a unified cognitive flow.
-- **Full Cognitive Loop Orchestration**: Seamlessly coordinates information flow between OpenHydra (perception), OpenCoeus (reasoning), and OpenDike (alignment).
+- **Full Cognitive Loop Orchestration**: Seamlessly coordinates information flow between OpenHydra (learning+evolution), OpenCoeus (reasoning), and OpenDike (alignment).
 - **Meta-Cognitive Monitoring**: Continuously evaluates internal reasoning confidence, cognitive load, and uncertainty to trigger deeper reflection or safe fallbacks.
 - **Hierarchical Goal Management**: Maintains and decomposes persistent long-term objectives into actionable short-term plans while ensuring moral alignment.
 
