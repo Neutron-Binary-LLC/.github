@@ -2,7 +2,7 @@
 
 Welcome to the **Neutron Binary** organization page. We are building the foundational layers for **Conscious Digital Entities**—AI systems that don't just process data, but perceive, reason, and align with human values in real-time.
 
-Our ecosystem is comprised of three core pillars that work in harmony to provide systems (from humanoid robots to smart home monitoring) a consistent, adaptive, and ethically-grounded **personality**.
+Our ecosystem is comprised of four core pillars that work in harmony to provide systems (from humanoid robots to smart home monitoring) a consistent, adaptive, and ethically-grounded **personality**.
 
 ---
 
