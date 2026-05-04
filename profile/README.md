@@ -76,7 +76,7 @@ graph TD
 ---
 
 ## 🌟 Our Vision
-We believe that for AI to be truly integrated into human life, it must possess a **stable yet evolving personality**. By decoupling Perception (Hydra), Reasoning (Coeus), and Morality (Dike), we create systems that are transparent, steerable, and authentically aligned with their users.
+We believe that for AI to be truly integrated into human life, it must possess a **stable yet evolving personality**. By decoupling Learning+Evolution (Hydra), Reasoning (Coeus), and Morality (Dike), we create systems that are transparent, steerable, and authentically aligned with their users.
 
 ---
 © 2026 Neutron Binary LLC. Shaping the future of conscious digital entities.
